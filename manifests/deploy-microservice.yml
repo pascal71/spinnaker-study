@@ -8,7 +8,7 @@ metadata:
     name: trainer-microservice
     namespace: microservices
 spec:
-    replicas: 7
+    replicas: 10
     selector:
         matchLabels:
             run: trainer-microservice
